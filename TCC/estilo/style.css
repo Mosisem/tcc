@@ -1,0 +1,125 @@
+#titulo {
+
+    font-size: 80px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+
+}
+
+#inicio {
+
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+ul {
+
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    align-items: center;
+    padding:  0px 23%;
+    font-size: 23px;
+    
+    
+}
+
+.tabela {
+    
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+
+.tabela:hover {
+
+    color: white;
+    background-color: black;
+    height: 400px;
+    width: 20px;
+    border-radius: 20%;
+    padding: 15px;
+  
+}
+
+
+/* teste dos slides*/
+
+.swiper{
+    height: 100%;
+    width: 100%;
+    border-radius: 8px;
+    
+}
+
+.swiper-slide{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    inline-size: 30%;
+}
+
+/**/
+
+.gato {
+
+    margin-left: -120px;
+    border-top: 15px solid rgba(0, 0, 0, 0.603);
+    border-left: 15px solid  rgba(0, 0, 0, 0.603);
+    border-right:15px solid rgba(0, 0, 0, 0.603);
+    border-bottom: 30px solid rgba(0, 0, 0, 0.603);
+    border-radius: 10px;
+    transition: 1s;
+}
+
+.gato:hover{
+    margin-top: -20px;
+    border-bottom: 70px solid black;
+    border-top: 15px solid black;
+    border-left: 15px solid  black;
+    border-right:15px solid black;
+}
+
+#hr_sub_tx{
+    height: 50%;
+    width: 20%;
+}
+
+.textoinicio {
+
+    text-align: center;
+    font-size: 15px;
+    font-style: italic;
+    justify-content: center;
+    width: 60%;
+
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+.aranha {
+
+    width: 400px;
+    height: 500px;
+    border: 8px solid grey;
+    margin-left: 820px;
+    border-radius: 5px;
+}   
+
+.cabecalho {
+
+    text-decoration: none;
+    color: black;
+}
+
+button{
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    margin-left: -90px;
+    background-color: black;
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
