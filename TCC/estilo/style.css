@@ -1,10 +1,35 @@
 #titulo {
 
-    font-size: 80px;
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
-
+    background-image: url("img/vector-horizontal-graffiti-banner.jpg");
+    background-position: 100%;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 125px;
+    opacity: 0.8;
 }
+
+#titulo a {
+
+    color: white;
+    text-shadow: 4px 4px 3px black;
+    
+}
+
+.cabecalho {
+
+    font-size: 80px;
+    padding-top: 15px;
+    text-decoration: none;
+    
+}
+
+h1 {
+
+    padding-top: 13px;
+}
+
 
 #inicio {
 
@@ -63,23 +88,31 @@ ul {
 
 /**/
 
+.content{
+    align-items: center;
+    justify-items: center;
+    padding: 80px;
+    background-color: black;
+   
+}
+
 .gato {
 
-    margin-left: -120px;
-    border-top: 15px solid rgba(0, 0, 0, 0.603);
-    border-left: 15px solid  rgba(0, 0, 0, 0.603);
-    border-right:15px solid rgba(0, 0, 0, 0.603);
-    border-bottom: 30px solid rgba(0, 0, 0, 0.603);
+    margin-left: 20px;
+    border-top: 15px solid rgb(255, 255, 255);
+    border-left: 15px solid  rgb(255, 255, 255);
+    border-right:15px solid rgb(255, 255, 255);
+    border-bottom: 30px solid rgb(255, 255, 255);
     border-radius: 10px;
     transition: 1s;
 }
 
 .gato:hover{
-    margin-top: -20px;
-    border-bottom: 70px solid black;
-    border-top: 15px solid black;
-    border-left: 15px solid  black;
-    border-right:15px solid black;
+    margin-top: -10px;
+    border-bottom: 100px solid white;
+    border-top: 15px solid white;
+    border-left: 15px solid  white;
+    border-right:15px solid white;
 }
 
 #hr_sub_tx{
@@ -94,25 +127,55 @@ ul {
     font-style: italic;
     justify-content: center;
     width: 60%;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 
-    font-family: Georgia, 'Times New Roman', Times, serif
 
+}
+
+.cleitao{
+    width: 400px;
+    height: 500px;
+    margin-left: 40px;
+    border-top: 15px solid white;
+    border-left: 15px solid  rgb(255, 255, 255);
+    border-right:15px solid rgb(255, 255, 255);
+    border-bottom: 30px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 1s;
+    border-radius: 5px;
+}
+
+.cleitao:hover{
+    margin-top: -10px;
+    border-bottom: 100px solid white;
+    border-top: 15px solid white;
+    border-left: 15px solid  white;
+    border-right:15px solid white;
 }
 
 .aranha {
 
     width: 400px;
     height: 500px;
-    border: 8px solid grey;
-    margin-left: 820px;
+    margin-left: 40px;
+    border-top: 15px solid rgb(255, 255, 255);
+    border-left: 15px solid  rgb(255, 255, 255);
+    border-right:15px solid rgb(255, 255, 255);
+    border-bottom: 30px solid rgb(255, 255, 255);
+    border-radius: 10px;
+    transition: 1s;
     border-radius: 5px;
-}   
+}  
 
-.cabecalho {
+.aranha:hover{
+    margin-top: -10px;
+    border-bottom: 100px solid white;
+    border-top: 15px solid white;
+    border-left: 15px solid  white;
+    border-right:15px solid white;
 
-    text-decoration: none;
-    color: black;
 }
+
 
 button{
     width: 90px;
@@ -123,3 +186,4 @@ button{
     color: white;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+
