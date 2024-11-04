@@ -1,0 +1,28 @@
+h2 {
+
+    font-size: 40px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+  /* Transparência e layout da seção de conteúdo */
+  .content {
+    background-color: rgba(0, 0, 0, 0.7); /* Fundo preto com transparência */
+    padding: 170px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.5);
+    align-items: center;
+    justify-content: center;
+    
+}
+
+/* Estilo de título e texto */
+
+p {
+    
+    font-size: 1.2em;
+    color: #dcdcdc;
+    text-align: center;
+    font-size: 29px;
+    
+}
