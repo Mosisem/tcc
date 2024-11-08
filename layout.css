@@ -40,19 +40,16 @@ ul {
 #titulo {
 
     text-align: center;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background-image: url("img/vector-horizontal-graffiti-banner.jpg");
-    background-position: 100%;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    height: 125px;
+    font-family: cursive;
+    height: 140px;
     opacity: 0.8;
+    margin-top: -20px;
 }
 
 #titulo a {
 
-    color: white;
-    text-shadow: 4px 4px 3px black;
+    color: black;
+    text-shadow: 4px 4px 3px gray;
     
 }
 
