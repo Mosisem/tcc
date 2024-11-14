@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style/index.css">
+    <title>GS Artes</title>
+</head>
+<body>
+    <!-- Cabeçalho -->
+    <header>
+        <div class="img-logo">
+        <img src="img/GSbanner.jpg" class="banner">
+        <img src="img/GS Artes Banner de Site1.png" class="logo">
+        <img src="img/texto-mobile.png" class="logo-mobile">
+    </div>
+    </header>
+
+    <!-- Navegação -->
+    <nav id="nav">
+        <div class="area-menu">
+        <button id="btn-mobile">Menu
+            <span id="hamburger"></span>
+        </button>
+        <ul class="cima">
+            <li><a href="galeria.html" class="topo">Galeria</a></li>
+            <li><a href="emcomendas.html" class="topo">Emcomendas</a></li>
+            <li><a href="sobre-nos.html" class="topo">Sobre nos</a></li>
+        </ul>
+    </div>
+    </nav>
+
+   <!-- Slides -->
+    <div id="wrapper">
+   <div class="wrapper">
+    <div class="slide-wrapper" data-slide="wrapper">
+        <button class="slide-nav-button slide-nav-previous fas fa-chevron-left" data-slide="nav-previous-button"></button>
+        <button class="slide-nav-button slide-nav-next fas fa-chevron-right" data-slide="nav-next-button"></button>
+        <div class="slide-list" data-slide="list">
+            <div class="slide-item" data-slide="item" data-index="0">
+                <div class="slide-content">
+                    <img class="slide-image" src="style/slides/slide_1.jpeg" alt="Assassin's Creed" />
+                    <div class="slide-description">
+                        <h3>Desenho 1</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+            <div class="slide-item" data-slide="item" data-index="1">
+                <div class="slide-content">
+                    <img class="slide-image" src="style/slides/slide_2.jpeg" alt="Fortnite" />
+                    <div class="slide-description">
+                        <h3>Desenho 2</h3>
+                        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit</p>
+                    </div>
+                </div>
+            </div>
+ 
+        </div>
+        <div class="slide-controls" data-slide="controls-wrapper">
+        </div>
+    </div>
+</div></div>
+    <script src="js/slide.js"></script>
+    <script>
+        initSlider({
+            autoPlay: true,
+            startAtIndex: 0,
+            timeInterval: 2000,
+        });
+    </script>
+<script src="js/index.js"></script>
+
+<!-- Texto apresentativo -->
+
+<p class="texto1">A GS Artes cria retratos em preto e branco, feitos à mão, que capturam a beleza e a essência de cada pessoa.
+    Com atenção aos detalhes, transformamos cada rosto em uma obra de arte única, perfeita para decorar ambientes, celebrar momentos
+    especiais e presentear com significado. Aqui, cada traço é feito com dedicação, refletindo a singularidade de cada história.
+</p>
+
+<!-- Imagens -->
+ <div class="content-img">
+    <div class="container">
+        <img src="https://http2.mlstatic.com/D_NQ_NP_943606-MLB41794229280_052020-O.webp" class="imgs">
+    </div>
+    <div class="container">
+        <img src="img/kratos.jpg" class="imgs">
+    </div>
+    <div class="container">
+        <img src="https://pm1.aminoapps.com/8672/ab65c7944b401dfa210fbff58b2fe383ca534913r1-1547-1557v2_hq.jpg" class="imgs">
+    </div>
+ </div>
+</body>
+</html>
