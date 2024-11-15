@@ -132,7 +132,7 @@ header a{
     }
     nav.active .cima{
         display: block;
-        height: calc(100vh - 205px);
+        height: 100px;
         visibility: visible;
     }
     #btn-mobile{
