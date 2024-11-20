@@ -9,6 +9,15 @@ h2 {
     text-align: center;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/* Imagem de Fudo  */
+.fundo{
+    background-image: url(../img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
 
   /* Transparência e layout da seção de conteúdo */
   .content {
