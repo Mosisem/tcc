@@ -10,10 +10,6 @@ h2 {
 }
 
 .imagens {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-items: center;
     margin-left: 150px;
     margin-bottom: 150px;
     max-width: 450px;
@@ -28,6 +24,8 @@ h2 {
 }
 
 .conteudo {
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-content: center;
     background-color: #f3f2ef;
