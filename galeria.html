@@ -4,28 +4,36 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Galeria - GS Artes</title>
-    <link rel="stylesheet" href="layout.css">
-    <link rel="stylesheet" href="galeria.css">
+    <link rel="stylesheet" href="style/galeria.css">
 
 </head>
 <body>
-    
-    <header id="titulo">
-        <h1><a href="index.html" class="cabecalho">GS Artes</a></h1>
+      <!-- Cabeçalho -->
+      <header>
+        <a href="index.html">
+            <div class="img-logo">
+                <img src="img/GSbanner.jpg" class="banner">
+                <img src="img/GS Artes Banner de Site1.png" class="logo">
+                <img src="img/texto-mobile.png" class="logo-mobile">
+            </div>
+    </a>
     </header>
-    <hr>
 
-    
-    <nav>
-        <ul>
-            <li><a href="galeria.html" class="tabela">Galeria</a></li>
-            <li><a href="encomendas.html" class="tabela">Encomendas</a></li>
-            <li><a href="SobtenósGSArtes.html" class="tabela">Sobre Nós</a></li>
+    <!-- Navegação -->
+    <nav id="nav">
+        <div class="area-menu">
+        <button id="btn-mobile">Menu
+            <span id="hamburger"></span>
+        </button>
+        <ul class="cima">
+            <li><a href="galeria.html" class="topo">Galeria</a></li>
+            <li><a href="index.html" class="topo">Inicio</a></li>
+            <li><a href="sobre-nos.html" class="topo">Sobre nos</a></li>
         </ul>
+    </div>
     </nav>
-    <hr>
-<br>
 
+    <script src="js/index.js"></script>
 <h2>Galeria</h2>
 
 <div class="conteudo">
