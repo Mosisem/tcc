@@ -189,7 +189,7 @@
     
      .card .card-image{
         position: absolute;
-        width: 150px;
+        width: auto;
         height: auto;
         transition: 0.5s;
     }
