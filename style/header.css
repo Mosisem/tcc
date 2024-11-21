@@ -101,12 +101,19 @@ header a{
     transition: .5s;
     justify-content: space-between;
 
-    &:hover,.open{
+    &:hover{
         color: white;
         background-color: black;
         border-radius: 20%;
         transform: scale(1000rem);
     }
+}
+
+.open{
+    color: white;
+        background-color: black;
+        border-radius: 20%;
+        transform: scale(1000rem);
 }
 
 /* Navegação Mobile */
