@@ -10,7 +10,8 @@ h2 {
 }
 
 .imagens {
-
+    display: flex;
+    flex-wrap: wrap;
     align-items: center;
     justify-items: center;
     margin-left: 150px;
