@@ -2,33 +2,26 @@
 @import url(header.css);
 
 /* Galeria  */
-h2 {
 
-        font-size: 40px;
-        text-align: center;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+body{
+    background-color: #f3f2ef;
+}
+.conteudo {
+  gap: 1rem;
+  color: #333;
+  padding: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
 }
 
 .imagens {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
-    margin-left: 150px;
-    margin-bottom: 150px;
-    max-width: 450px;
-    max-height: 450px;
-    width: auto;
-    height: auto;
-    border-top: 8px solid black;
-    border-bottom: 8px solid black;
-    border-right: 8px solid black;
-    border-left: 8px solid black;
-    object-fit: cover;
-}
-
-.conteudo {
-    background-color: #f3f2ef;
-    color: #333;
-    padding: 20px
+  max-width: 350px;
+  max-height: 350px;
+  width: auto;
+  height: auto;
+  border: 8px solid black;
+  object-fit: cover;
 }
