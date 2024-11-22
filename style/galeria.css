@@ -3,10 +3,8 @@
 
 /* Galeria  */
 
-body{
-    background-color: #f3f2ef;
-}
 .conteudo {
+  background-color: #f3f2ef;
   gap: 1rem;
   color: #333;
   padding: 5%;
