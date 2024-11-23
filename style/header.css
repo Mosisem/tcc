@@ -111,6 +111,7 @@ header a{
 }
 
 .topo.open{
+    display: inline-block;
     color: white;
     background-color: black;
     border-radius: 20%;
