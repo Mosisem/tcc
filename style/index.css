@@ -141,9 +141,6 @@
     .slide-control-button {
         font-size: 14px;
     }
-    #wrapper.active{
-        display: none;
-    }
 }
 
 /* Texto */
