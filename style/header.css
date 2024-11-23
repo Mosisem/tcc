@@ -107,6 +107,7 @@ header a{
         background-color: black;
         border-radius: 20%;
         transform: scale(1000rem);
+        display: inline-block;
     }
 }
 
