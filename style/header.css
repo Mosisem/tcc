@@ -73,6 +73,12 @@ header a{
     }
 }
 /* Navegação */
+nav{
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    background-color: white;
+}
 
 .area-menu{
     display: flex;
