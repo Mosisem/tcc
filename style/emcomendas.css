@@ -64,18 +64,20 @@ h2 {
     margin-top: 15px;
 }
 
-button{
+.product-section button{
     background-color: #444;
     display: flex;
     padding: 3%;
     border-radius: 5px;
     box-shadow: -2px 3px 0 #161616, -3px 4px 0 #000;
     font-size: clamp(8px, 5vw, 1rem);
-}
-button:hover{
+
+    &:hover{
     box-shadow: inset -4px 4px 0 #222;
 }
-button a{
+}
+
+.product-section button a{
     list-style-type: none;
     text-decoration: none;
     color:white;
