@@ -1,4 +1,4 @@
-ScrollReveal({reset:true}).reveal('.imagens',{
+ScrollReveal().reveal('.imagens',{
     origin: 'bottom',
     duration: 2000,
     delay: 100,
